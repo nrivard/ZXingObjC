@@ -48,8 +48,8 @@ const int ZX_PDF417_WHITE_SPACE = 30;
                                 maxRows:dimensions.maxRows
                                 minRows:dimensions.minRows];
     }
-    if (hints.margin) {
-      margin = [hints.margin intValue];
+    if (hints.barcodeMargin) {
+      margin = [hints.barcodeMargin intValue];
     }
     if (hints.encoding > 0) {
       encoder.encoding = hints.encoding;
