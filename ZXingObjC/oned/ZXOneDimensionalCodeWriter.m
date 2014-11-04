@@ -45,8 +45,8 @@
   }
 
   int sidesMargin = [self defaultMargin];
-  if (hints && hints.margin) {
-    sidesMargin = hints.margin.intValue;
+  if (hints && hints.barcodeMargin) {
+    sidesMargin = hints.barcodeMargin.intValue;
   }
 
   ZXBoolArray *code = [self encode:contents];

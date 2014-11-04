@@ -49,8 +49,8 @@ const int ZX_QUIET_ZONE_SIZE = 4;
     if (hints.errorCorrectionLevel) {
       errorCorrectionLevel = hints.errorCorrectionLevel;
     }
-    if (hints.margin) {
-      quietZone = [hints.margin intValue];
+    if (hints.barcodeMargin) {
+      quietZone = [hints.barcodeMargin intValue];
     }
   }
 

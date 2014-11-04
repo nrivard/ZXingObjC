@@ -84,7 +84,7 @@ typedef enum {
  * by format; for example it controls margin before and after the barcode horizontally for
  * most 1D formats.
  */
-@property (nonatomic, strong) NSNumber *margin;
+@property (nonatomic, strong) NSNumber *barcodeMargin;
 
 /**
  * Specifies whether to use compact mode for PDF417.
